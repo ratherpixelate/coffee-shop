@@ -1,12 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: 0;
+   margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1B1107;
 }
 nav {
+    border: 0.05rem solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 0rem 2rem;
+    margin: 2rem;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: "Abril Fatface", sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400
 }
