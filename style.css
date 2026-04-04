@@ -51,3 +51,49 @@ nav {
 .nav-links a:hover {
     color: #D9B382;
 }
+
+.hero {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-container {
+      position: relative; z-index: 1;
+      max-width: 680px;
+      text-align: center;
+      animation: fadeUp 0.9s ease both;
+    }
+
+.hero-title {
+    font-size: clamp(2.4rem, 6vw, 3.8rem);
+    font-weight: 100;
+    font-family: "Abril Fatface", sans-serif;
+    letter-spacing: 0.01em;
+}
+
+.hero-title em { 
+    font-style: italic; color: #c9a96e; 
+}
+
+.title-box {
+    margin-bottom: 1.2rem;
+}
+
+.hero-subtitle {
+    font-size: 15px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    max-width: 480px;
+    margin: 0 auto 2rem;
+}
+
+.hero-button {
+
+}
