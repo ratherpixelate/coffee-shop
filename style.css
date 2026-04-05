@@ -144,3 +144,60 @@ nav {
     font-style: italic; 
     color: #c9a96e; 
 }
+.menu-grid { 
+    display: grid; 
+    background-color: #c9a96e;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+    margin: 0 auto;
+}
+.card{
+    background-color: #c9a96e;
+    border: 0.05rem solid #1B1107;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 4px 4px 0 #1b1107;
+    cursor: pointer;
+}
+.card-head {
+    background-color: #c9a96e;
+
+}
+.card-img {
+    background-color: #c9a96e;
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    display: block
+
+}
+.card-body {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    margin-bottom: 0.6rem;
+    background-color: #c9a96e;
+}
+.card-name {
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.2rem; 
+    background-color: #c9a96e;
+    color: #1B1107; 
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+.card-price {
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.2rem; 
+    color: #1B1107; 
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    background-color: #c9a96e;
+}
+
