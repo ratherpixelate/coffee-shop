@@ -168,17 +168,13 @@ nav {
 }
 .card-head {
     background-color: #c9a96e;
-    width: 100%; 
-    height: 200px; 
-    object-fit: cover; 
+    max-width: 100%; 
+    height: auto; 
     display: block
-
-
 }
 .card-img {
-    width: 100%; 
-    height: 200px; 
-    object-fit: cover; 
+    max-width: 100%; 
+    height: auto; 
     display: block; 
     border:0.1rem solid #1B1107;
 }
@@ -208,4 +204,28 @@ nav {
     background-color: #c9a96e;
 }
 
+
+.about-section { 
+    min-height: 100vh;
+    padding: 5rem 2rem; 
+}
+.about-header { 
+    text-align: center; 
+    margin-bottom: 3rem; 
+}
+.about-sub { 
+    font-size: 13px; 
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.22em; 
+    color: #c9a96e; 
+    font-weight: 700; 
+    margin-bottom: 0.8rem; 
+}
+.about-title { 
+    font-family: "Abril Fatface", serif; 
+    font-size: clamp(2rem, 4vw, 3rem); 
+    font-weight: normal; 
+    line-height: 1.15; 
+    color: white;
+}
 
