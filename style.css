@@ -366,3 +366,78 @@ nav {
     transform: translate(-5px, -5px);
     box-shadow: 4px 4px 0 #1b1107;
 }
+
+footer {
+    padding: 4rem 2rem 2rem;
+    text-align: center;
+    color: white;
+}
+.footer-inner { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+.footer-top { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 3rem; 
+    margin-bottom: 3rem; 
+}
+.footer-brand .logo { 
+    font-family: 'Abril Fatface', serif; 
+    font-size: 22px; 
+    color: #fff; 
+    letter-spacing: 0.04em; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-bottom: 1rem; }
+.footer-brand .logo span { 
+    color: #c9a96e; 
+}
+.footer-desc{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    max-width: 480px;
+    margin: 0 auto 3rem;
+    color: #666;
+}
+.footer-col h4 { 
+    font-size: 11px; 
+    letter-spacing: 0.18em; 
+    color: #c9a96e; 
+    font-weight: 500; 
+    margin-bottom: 1.2rem; 
+}
+.footer-col ul { 
+    list-style: none; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.7rem; 
+}
+.footer-col ul a { 
+    font-size: 13px; 
+    color: #666; 
+    text-decoration: none; 
+    transition: color 0.2s; 
+}
+.footer-col ul a:hover { 
+    color: #fff; 
+}
+.footer-bottom { 
+    padding-top: 1.5rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.footer-bottom p { 
+    font-size: 12px; 
+    color: #444; 
+    letter-spacing: 0.06em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer hr {
+    border: none;
+    border-top: 0.05rem solid #444;
+}
