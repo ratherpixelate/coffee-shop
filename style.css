@@ -164,7 +164,6 @@ nav {
 .card:hover {
     transform: translate(-5px, -5px);
     box-shadow: 4px 4px 0 #1b1107;
-    cursor: pointer;
 }
 .card-head {
     background-color: #c9a96e;
@@ -228,4 +227,69 @@ nav {
     line-height: 1.15; 
     color: white;
 }
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.about-desc{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 1.75;
+    max-width: 600px;
+}
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3rem;
+    margin: 0 auto; 
+    margin-top: 3rem;
+    width: 600px;
+}
+.about-stats{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+.stat-card{
+    background-color: #1B1107;
+    border: 0.1rem solid #c9a96e;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    color: white;
+    transition: all 0.3s ease;
+
+}
+.stat-card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 4px 4px 0 #c9a96e;
+}
+.stat-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+.stat-number{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #c9a96e;
+    font-weight: 700;
+}
+.stat-label{
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #c9a96e;
+    line-height: 1.2;
+}
+
 
